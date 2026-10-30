@@ -1,0 +1,92 @@
+{
+  "fetchedAt": "2026-06-17T00:00:00.000Z",
+  "timetable": {
+    "metadata": {
+      "school": "P P Savani University",
+      "details": "Semester 5",
+      "effectiveFrom": "2026-06-15"
+    },
+    "schedule": [
+      {
+        "day": "Monday",
+        "date": "2026-06-15",
+        "time": { "raw": "09:00 to 10:00", "start": "09:00", "end": "10:00" },
+        "durationSlots": 1,
+        "courseCode": "SECE4221",
+        "courseName": "Artificial Intelligence",
+        "faculty": "Dr. Sharma",
+        "location": "Room 101",
+        "batch": null,
+        "isLab": false
+      },
+      {
+        "day": "Monday",
+        "date": "2026-06-15",
+        "time": { "raw": "10:00 to 11:00", "start": "10:00", "end": "11:00" },
+        "durationSlots": 1,
+        "courseCode": "SEIT3270",
+        "courseName": "Web Technologies",
+        "faculty": "Prof. Patel",
+        "location": "Room 102",
+        "batch": null,
+        "isLab": false
+      },
+      {
+        "day": "Tuesday",
+        "date": "2026-06-16",
+        "time": { "raw": "11:00 to 13:00", "start": "11:00", "end": "13:00" },
+        "durationSlots": 2,
+        "courseCode": "SEML3220",
+        "courseName": "R Programming",
+        "faculty": "Prof. Desai",
+        "location": "Lab 201",
+        "batch": "Batch-A",
+        "isLab": true
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026-06-17",
+        "time": { "raw": "09:00 to 10:00", "start": "09:00", "end": "10:00" },
+        "courseCode": "CFLS2210",
+        "courseName": "Foreign Language (German)",
+        "faculty": "Ms. Smith",
+        "location": "Room 205",
+        "batch": null,
+        "isLab": false
+      },
+      {
+        "day": "Wednesday",
+        "date": "2026-06-17",
+        "time": { "raw": "14:00 to 16:00", "start": "14:00", "end": "16:00" },
+        "courseCode": "SEML3210",
+        "courseName": "Foundation of Machine Learning",
+        "faculty": "Dr. Rao",
+        "location": "Lab 202",
+        "batch": null,
+        "isLab": true
+      },
+      {
+        "day": "Thursday",
+        "date": "2026-06-18",
+        "time": { "raw": "10:00 to 11:00", "start": "10:00", "end": "11:00" },
+        "courseCode": "CLSC2050",
+        "courseName": "Learnings from Ramayana",
+        "faculty": "Prof. Joshi",
+        "location": "Room 301",
+        "batch": null,
+        "isLab": false
+      },
+      {
+        "day": "Friday",
+        "date": "2026-06-19",
+        "time": { "raw": "09:00 to 11:00", "start": "09:00", "end": "11:00" },
+        "courseCode": "SECE4221",
+        "courseName": "Artificial Intelligence",
+        "faculty": "Dr. Sharma",
+        "location": "Lab 301",
+        "batch": "Batch-B",
+        "isLab": true
+      }
+    ]
+  }
+}

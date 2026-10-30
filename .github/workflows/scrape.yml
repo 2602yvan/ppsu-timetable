@@ -1,0 +1,47 @@
+name: Auto ERP Scraper
+
+
+on:
+  schedule:
+    - cron: '0 */2 * * *' # Runs every 2 hours
+  workflow_dispatch:       # Allows manual run from GitHub
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies and Playwright browsers
+        # Added working-directory to target the backend folder
+        working-directory: ./backend 
+        run: |
+          npm install
+          npx playwright install --with-deps chromium
+
+      - name: Run scraper
+        run: node backend/server.mjs
+        working-directory: ./
+        NODE_PATH: .
+        env:
+          ERP_USERNAME: ${{ secrets.ERP_USERNAME }}
+          ERP_PASSWORD: ${{ secrets.ERP_PASSWORD }}
+
+      - name: Commit and push updated data
+        run: |
+          git config --global user.name "GitHub Scraper Bot"
+          git config --global user.email "actions@github.com"
+          # If these JSON files are generated inside the backend folder, 
+          # you might need to adjust this path to: backend/latest-timetable.json etc.
+          git add latest-timetable.json latest-attendance.json latest-lms.json
+          git commit -m "Auto-update ERP data" || exit 0
+          git push
+          # Optional: Add a delay to avoid GitHub API rate limits
+          sleep 10s

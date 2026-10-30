@@ -1,0 +1,64 @@
+{
+  "fetchedAt": "2026-06-17T00:00:00.000Z",
+  "attendance": {
+    "summary": {
+      "totalSlots": 45,
+      "presentSlots": 38,
+      "absentSlots": 7,
+      "attendancePercentage": 84.4
+    },
+    "subjects": [
+      {
+        "sr": 1,
+        "slotType": "Theory",
+        "course": "Artificial Intelligence",
+        "conducted": 12,
+        "present": 11,
+        "absent": 1,
+        "attendancePercentage": 91.7
+      },
+      {
+        "sr": 2,
+        "slotType": "Theory",
+        "course": "Web Technologies",
+        "conducted": 10,
+        "present": 8,
+        "absent": 2,
+        "attendancePercentage": 80
+      },
+      {
+        "sr": 3,
+        "slotType": "Practical",
+        "course": "R Programming",
+        "conducted": 8,
+        "present": 7,
+        "absent": 1,
+        "attendancePercentage": 87.5
+      },
+      {
+        "sr": 4,
+        "slotType": "Theory",
+        "course": "Foreign Language (German)",
+        "conducted": 6,
+        "present": 5,
+        "absent": 1,
+        "attendancePercentage": 83.3
+      },
+      {
+        "sr": 5,
+        "slotType": "Practical",
+        "course": "Foundation of Machine Learning",
+        "conducted": 9,
+        "present": 7,
+        "absent": 2,
+        "attendancePercentage": 77.8
+      }
+    ],
+    "footer": {
+      "totalSlots": 45,
+      "totalPresent": 38,
+      "totalAbsent": 7,
+      "overallAttendancePercentage": 84.4
+    }
+  }
+}

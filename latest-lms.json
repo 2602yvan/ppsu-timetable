@@ -1,0 +1,111 @@
+{
+  "fetchedAt": "2026-06-17T00:00:00.000Z",
+  "lms": {
+    "subjects": [
+      {
+        "courseCode": "CFLS2210",
+        "courseName": "Foreign Language (German)",
+        "fullTitle": "CFLS2210 - Foreign Language (German)",
+        "contentCount": "Contents : 2",
+        "lmsUrl": "https://erp.ppsu.ac.in/StudentPanel/LMS/LMS_Content_SubjectWiseContentList.aspx?SubjectID=WPxgVIkmxbo&AcademicSessionID=DKm-bUZWcRQ&Semester=jzq6Jzvy4NU&DivisionID=jYfc4Pi3ZMI",
+        "introduction": "Learn German basics: alphabet, greetings, numbers, and daily phrases.",
+        "content": [
+          { "title": "Chapter 1: German Alphabet and Pronunciation", "url": "" },
+          { "title": "Chapter 2: Greetings and Introductions", "url": "" }
+        ],
+        "assignments": [
+          { "title": "Assignment 1: Write a short self-introduction in German", "url": "" },
+          { "title": "Assignment 2: Learn and record 10 basic phrases", "url": "" }
+        ],
+        "tests": [
+          { "title": "Quiz 1: Basics of German", "url": "" }
+        ]
+      },
+      {
+        "courseCode": "CLSC2050",
+        "courseName": "Learnings from Ramayana",
+        "fullTitle": "CLSC2050 - Learnings from Ramayana",
+        "contentCount": "Contents : 0",
+        "lmsUrl": "https://erp.ppsu.ac.in/StudentPanel/LMS/LMS_Content_SubjectWiseContentList.aspx?SubjectID=ubAdxB7$bsM&AcademicSessionID=DKm-bUZWcRQ&Semester=jzq6Jzvy4NU&DivisionID=jYfc4Pi3ZMI",
+        "introduction": "Study the ethical lessons and moral values from the Ramayana.",
+        "content": [],
+        "assignments": [],
+        "tests": []
+      },
+      {
+        "courseCode": "SECE4221",
+        "courseName": "Artificial Intelligence",
+        "fullTitle": "SECE4221 - Artificial Intelligence",
+        "contentCount": "Contents : 1",
+        "lmsUrl": "https://erp.ppsu.ac.in/StudentPanel/LMS/LMS_Content_SubjectWiseContentList.aspx?SubjectID=arMQbEYpl0Q&AcademicSessionID=DKm-bUZWcRQ&Semester=jzq6Jzvy4NU&DivisionID=jYfc4Pi3ZMI",
+        "introduction": "Introduction to AI, search algorithms, knowledge representation, and machine learning basics.",
+        "content": [
+          { "title": "Module 1: Introduction to Artificial Intelligence", "url": "" }
+        ],
+        "assignments": [
+          { "title": "AI Basics Assignment: Implement a simple search algorithm", "url": "" }
+        ],
+        "tests": [
+          { "title": "AI Midterm Test", "url": "" }
+        ]
+      },
+      {
+        "courseCode": "SEIT3270",
+        "courseName": "Web Technologies",
+        "fullTitle": "SEIT3270 - Web Technologies",
+        "contentCount": "Contents : 2",
+        "lmsUrl": "https://erp.ppsu.ac.in/StudentPanel/LMS/LMS_Content_SubjectWiseContentList.aspx?SubjectID=M7YMJ-nd8vU&AcademicSessionID=DKm-bUZWcRQ&Semester=jzq6Jzvy4NU&DivisionID=jYfc4Pi3ZMI",
+        "introduction": "Learn HTML, CSS, JavaScript, React, and modern web development practices.",
+        "content": [
+          { "title": "Module 1: HTML and CSS Fundamentals", "url": "" },
+          { "title": "Module 2: JavaScript for Web Development", "url": "" }
+        ],
+        "assignments": [
+          { "title": "Portfolio Website Assignment", "url": "" }
+        ],
+        "tests": []
+      },
+      {
+        "courseCode": "SEML3211",
+        "courseName": "Foundation of Machine Learning",
+        "fullTitle": "SEML3211 - Foundation of Machine Learning",
+        "contentCount": "Contents : 0",
+        "lmsUrl": "https://erp.ppsu.ac.in/StudentPanel/LMS/LMS_Content_SubjectWiseContentList.aspx?SubjectID=oJDRUapxb8U&AcademicSessionID=DKm-bUZWcRQ&Semester=jzq6Jzvy4NU&DivisionID=jYfc4Pi3ZMI",
+        "introduction": "Mathematical foundation of ML, linear algebra, probability, and statistics.",
+        "content": [],
+        "assignments": [],
+        "tests": []
+      },
+      {
+        "courseCode": "SEML3220",
+        "courseName": "R Programming",
+        "fullTitle": "SEML3220 - R Programming",
+        "contentCount": "Contents : 3",
+        "lmsUrl": "https://erp.ppsu.ac.in/StudentPanel/LMS/LMS_Content_SubjectWiseContentList.aspx?SubjectID=kA8aB8Z7dqU&AcademicSessionID=DKm-bUZWcRQ&Semester=jzq6Jzvy4NU&DivisionID=jYfc4Pi3ZMI",
+        "introduction": "Programming in R for data analysis, visualization, and statistics.",
+        "content": [
+          { "title": "Chapter 1: R Basics", "url": "" },
+          { "title": "Chapter 2: Data Frames and Manipulation", "url": "" },
+          { "title": "Chapter 3: Visualization with ggplot2", "url": "" }
+        ],
+        "assignments": [
+          { "title": "R Data Analysis Assignment", "url": "" }
+        ],
+        "tests": [
+          { "title": "R Programming Quiz 1", "url": "" }
+        ]
+      },
+      {
+        "courseCode": "SEML3910",
+        "courseName": "Summer Training",
+        "fullTitle": "SEML3910 - Summer Training",
+        "contentCount": "Contents : 0",
+        "lmsUrl": "",
+        "introduction": "Industrial training and internship experience report.",
+        "content": [],
+        "assignments": [],
+        "tests": []
+      }
+    ]
+  }
+}
